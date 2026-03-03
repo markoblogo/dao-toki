@@ -77,18 +77,8 @@
     }
   },
   "moreBooks": {
-    "title": "lipu sin lon kulupu ni",
-    "subtitle": "tenpo kama la lipu sin tu li kama lon kulupu ni, li kama lon tomo ni.",
-    "items": [
-      {
-        "title": "lipu nanpa 4",
-        "status": "kama"
-      },
-      {
-        "title": "lipu nanpa 5",
-        "status": "kama"
-      }
-    ]
+    "title": "lipu ante pi toki pona",
+    "subtitle": "lipu ni li lon ala kulupu Stoic; ona li lipu ante tan jan pali sama."
   },
   "faq": {
     "title": "sona lili (FAQ)",

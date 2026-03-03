@@ -77,18 +77,8 @@
     }
   },
   "moreBooks": {
-    "title": "More books in this series",
-    "subtitle": "Two more volumes are planned for the series and will be added here as they are published.",
-    "items": [
-      {
-        "title": "Upcoming volume #4",
-        "status": "Planned"
-      },
-      {
-        "title": "Upcoming volume #5",
-        "status": "Planned"
-      }
-    ]
+    "title": "More books about toki pona",
+    "subtitle": "Not part of the Stoic series — other editions by the author."
   },
   "faq": {
     "title": "FAQ",
