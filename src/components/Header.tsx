@@ -25,7 +25,7 @@ export default function Header({ lang }: { lang: 'en' | 'tp' }) {
           <a className={`${styles.navLink} ux-hover-btn ux-focus-ring`} href="https://toki.abvx.xyz/learn">
             Learn
           </a>
-          <a className={`${styles.navLink} ux-hover-btn ux-focus-ring`} href="https://toki.abvx.xyz/kit">
+          <a className={`${styles.navLink} ux-hover-btn ux-focus-ring`} href="https://toki-free.abvx.xyz/">
             Kit
           </a>
           <a className={`${styles.navLink} ux-hover-btn ux-focus-ring`} href={`${homeHref}#more-books`}>

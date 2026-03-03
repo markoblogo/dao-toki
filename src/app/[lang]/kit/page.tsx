@@ -23,7 +23,7 @@ export async function generateMetadata({
     alternates: {
       canonical: base,
       languages: {
-        en: 'https://toki.abvx.xyz/en/kit',
+        en: 'https://toki-free.abvx.xyz/',
       },
     },
     openGraph: {

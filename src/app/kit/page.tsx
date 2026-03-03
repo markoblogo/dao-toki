@@ -1,5 +1,5 @@
 import { redirect } from 'next/navigation';
 
 export default function KitRootPage() {
-  redirect('/en/kit');
+  redirect('https://toki-free.abvx.xyz/');
 }
