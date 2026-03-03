@@ -1,16 +1,17 @@
 {
   "lang": "en",
   "meta": {
-    "title": "Stoic Wisdom in toki pona — with sitelen pona",
-    "description": "Read Stoic classics in toki pona. Two-layer format: Latin script + sitelen pona, plus English reference text and practical glossary frames."
+    "title": "Chinese Wisdom in toki pona",
+    "description": "A bilingual book series that brings classical Chinese philosophy into a compact toki pona reading format."
   },
   "header": {
     "lang": "EN / TP"
   },
   "hero": {
-    "title": "Stoic Wisdom in Toki Pona",
-    "subtitle": "Classic Stoic texts reimagined in the world’s simplest language. Minimal words, clear ideas — with sitelen pona alongside toki pona for a calm, visual reread.",
-    "buy_kindle": "Kindle edition",
+    "title": "Chinese Wisdom in toki pona",
+    "subtitle": "A bilingual book series that brings classical Chinese philosophy into a compact toki pona reading format. Traditional Chinese, English, toki pona, and sitelen-pona-ready layouts for slow, reflective reading.",
+    "note": "Three books are live now. Two more will follow.",
+    "buy_kindle": "Kindle",
     "buy_print": "Paperback",
     "download_pdf": "Download PDF",
     "download_epub": "Download EPUB",
@@ -20,20 +21,20 @@
     "title": "Why this series?",
     "cards": {
       "history": {
-        "title": "A language built for clarity",
-        "text": "Toki pona forces you to say the essence. That constraint fits Stoicism: fewer claims, less noise, more control over meaning."
+        "title": "Classical Chinese, re-read slowly",
+        "text": "These editions are built for rereading, not speed. The small vocabulary of toki pona makes structure, contrast, and recurring patterns easier to notice."
       },
       "style": {
-        "title": "Stoicism in small, readable pieces",
-        "text": "These books are short, practical, and aphoristic. You can read them slowly, revisit passages, and use them as daily prompts."
+        "title": "Parallel reading across systems",
+        "text": "Traditional Chinese, English, toki pona, and sitelen-pona-ready layouts are brought into one calm reading format."
       },
       "europe": {
-        "title": "Latin script + sitelen pona",
-        "text": "Each text is available in Latin toki pona and sitelen pona. One is for reading, the other is for seeing structure and rhythm."
+        "title": "Philosophy through a minimal language",
+        "text": "toki pona does not try to replace the source tradition. It offers a constrained lens through which classical thought becomes newly visible."
       },
       "discovery": {
-        "title": "A coherent set, not random books",
-        "text": "Same visual style, same reading approach, consistent vocabulary choices. You can start anywhere — or collect the full set as one project."
+        "title": "Books as visual objects",
+        "text": "These editions are designed not only for reading, but also for looking: scripts, spacing, and page rhythm matter as much as explanation."
       }
     }
   },
@@ -42,75 +43,88 @@
     "buy_button": "View",
     "learn_more": "Learn more",
     "dao-de-jing": {
-      "title": "Dao De Jing — in toki pona",
+      "title": "Dao De Jing",
       "author": "Laozi",
-      "shortDesc": "Foundational Daoist text in the Chinese Wisdom in toki pona format.",
-      "longDesc": "Content draft pending. Data structure and routes are fixed for this title."
+      "shortDesc": "A visual edition of the Dao De Jing that pairs the classical Chinese text with a toki pona translation intended for reading in sitelen pona. The book opens with an English foreword and a compact guide to how Daoist ideas are mapped into a deliberately small language, then continues as a quiet sequence of chapter-by-chapter spreads.",
+      "longDesc": "Includes: English foreword, chapter guide, classical Chinese text, toki pona, sitelen-pona-ready layout.",
+      "learnMoreParagraphs": [
+        "This edition of the Dao De Jing brings together the classical Chinese text, toki pona, and a sitelen-pona-ready visual reading line. It begins with an English foreword and a compact chapter guide that explain how major ideas are mapped into a deliberately small language.",
+        "The main body of the book is built as a calm sequence of chapter spreads: Chinese on one side, toki pona on the other. There is no heavy commentary here: the book is designed as a visual and reflective reading object, where scripts and spacing carry part of the experience.",
+        "It may especially interest readers of Daoism, toki pona learners curious about philosophical translation, and anyone drawn to calligraphy, scripts, and experimental book design."
+      ]
     },
     "sunzi": {
-      "title": "Sunzi — in toki pona",
+      "title": "Sunzi: The Art of War in toki pona",
       "author": "Sunzi",
-      "shortDesc": "Classical strategic text adapted to the same bilingual landing system.",
-      "longDesc": "Content draft pending. Data structure and routes are fixed for this title."
+      "shortDesc": "A study-friendly multilingual edition of The Art of War, designed for slow comparison and repeated reading. Each passage is presented through four layers: English, Traditional Chinese, toki pona, and a sitelen-pona-ready toki pona line, with glossary notes that make visible the text's recurring structures and strategic contrasts.",
+      "longDesc": "Includes: English, Traditional Chinese, toki pona, sitelen-ready line, glossary notes.",
+      "learnMoreParagraphs": [
+        "This edition of The Art of War is part of the Chinese Wisdom in toki pona series, presenting the text through four coordinated layers: English, Traditional Chinese, toki pona, and a sitelen-pona-ready toki pona line.",
+        "It also includes glossary notes that clarify recurring concepts, strategic contrasts, and translation choices chapter by chapter. Rather than reducing Sunzi to a manual of combat, the edition highlights the deeper movement of the text: timing, concealment, terrain, momentum, and advantage.",
+        "Built for repeated reading rather than quick consumption, it is suited to readers of classical Chinese thought, toki pona learners ready for longer texts, and sitelen pona readers looking for substantial material."
+      ]
     },
     "mozi-universal-love": {
-      "title": "Mozi: Universal Love — in toki pona",
+      "title": "Mozi — Universal Love",
       "author": "Mozi",
-      "shortDesc": "Mozi-focused volume with canonical slug and stable asset routing.",
-      "longDesc": "Content draft pending. Data structure and routes are fixed for this title."
+      "shortDesc": "A free entry point into the Chinese Wisdom in toki pona series. This preview-format edition includes the full toki pona translation of Universal Love, arranged in a calm parallel-reading layout that introduces the visual and conceptual rhythm of the series.",
+      "longDesc": "Includes: full text, series preview format, parallel reading layout.",
+      "learnMoreParagraphs": [
+        "This free volume serves as an entry point into the Chinese Wisdom in toki pona series. It presents Mozi — Universal Love in a calm parallel-reading format that makes the series' visual and conceptual approach immediately clear.",
+        "As a preview-format edition, it is designed both as a complete reading experience and as an introduction to the larger publishing project. The layout supports slow rereading and close comparison, rather than fast consumption.",
+        "If the format clicks for you here, the paid volumes extend the same method into longer and more layered classical texts."
+      ]
     }
+  },
+  "moreBooks": {
+    "title": "More books in this series",
+    "subtitle": "Two more volumes are planned for the series and will be added here as they are published.",
+    "items": [
+      {
+        "title": "Upcoming volume #4",
+        "status": "Planned"
+      },
+      {
+        "title": "Upcoming volume #5",
+        "status": "Planned"
+      }
+    ]
   },
   "faq": {
     "title": "FAQ",
-    "subtitle": "Short answers about the series, sitelen pona, and reading method.",
+    "subtitle": "Short answers about the series, formats, and reading method.",
     "items": [
       {
-        "q": "What is Stoic Wisdom in toki pona?",
-        "a": "It’s a book series that reimagines classic Stoic texts in toki pona, with each line also repeated in sitelen pona. The goal is a calmer, lower-noise way to read ethics: fewer words, clearer choices, less room for self-deception."
+        "q": "What is this series?",
+        "a": "A bilingual publishing project that reimagines classical Chinese texts through toki pona and parallel reading layouts."
       },
       {
-        "q": "Which books are in the series?",
-        "a": "The series includes key classics commonly read as practical ethics: Marcus Aurelius, Epictetus, Seneca, and Cicero. Each book is edited for slow, daily reading in the same visual system."
+        "q": "Do I need to know toki pona already?",
+        "a": "Not necessarily. English and source-text layers help orientation, while the repeated structure makes the toki pona easier to follow."
       },
       {
-        "q": "Are these full texts or summaries?",
-        "a": "They are full editions in a structured reading format, not short summaries. The editing focuses on clarity and pacing, while keeping the work complete as a book."
+        "q": "Why use toki pona for philosophy?",
+        "a": "Because its small vocabulary makes many structural choices visible. It does not simplify the originals completely, but it changes how you notice them."
       },
       {
-        "q": "Do you include the English reference text?",
-        "a": "Yes. Each book includes a public-domain English reference text so you can verify meaning and compare choices made in the translation."
+        "q": "Why is sitelen pona included?",
+        "a": "To make the toki pona line readable as a visual script and to slow the reading experience in a productive way."
       },
       {
-        "q": "What is sitelen pona?",
-        "a": "It’s a pictographic writing system for toki pona. In these books it works as a second pass: the same line is shown again visually, turning rereading into a quiet practice."
+        "q": "Are all books free?",
+        "a": "No. The series includes paid books and one free preview-format volume: Mozi — Universal Love."
       },
       {
-        "q": "Do I need to know sitelen pona before reading?",
-        "a": "No. You can read the Latin script first. The sitelen pona layer is there for slower rereading and for building recognition over time."
+        "q": "Will more books be added?",
+        "a": "Yes. This landing is built as a growing series page, and more titles will appear as they are published."
       },
       {
-        "q": "Is this suitable for beginners in toki pona?",
-        "a": "It works best for motivated beginners who can tolerate ambiguity and rereading. If you’re brand new, start with a short guide, then return to the books with the glossary as support."
+        "q": "Are these translations literal?",
+        "a": "They are careful literary and interpretive editions shaped by the limits and possibilities of toki pona."
       },
       {
-        "q": "What level of toki pona is best for these books?",
-        "a": "Intermediate is the sweet spot: you’ll read smoothly and still learn. Advanced readers use the books to refine style, consistency, and moral vocabulary."
-      },
-      {
-        "q": "How should I read these books daily?",
-        "a": "Read one short section, then reread the same lines in sitelen pona. Pick one “anchor phrase” and use it as a rule for your day."
-      },
-      {
-        "q": "Are these available on Kindle and paperback?",
-        "a": "Yes. The editions are designed as print-style reading, and the Kindle version follows the same structure as closely as possible."
-      },
-      {
-        "q": "Where can I get the free reader’s kit?",
-        "a": "The reader’s kit is linked from the series page and includes a quick orientation for reading toki pona and sitelen pona in this format."
-      },
-      {
-        "q": "How is this different from other Stoic editions?",
-        "a": "The difference is the reading system: minimal language, two-layer reread with sitelen pona, English reference for checking, and a phrase-based glossary for consistency."
+        "q": "Where can I follow updates?",
+        "a": "Through the project links in the footer and future releases on this site."
       }
     ]
   },

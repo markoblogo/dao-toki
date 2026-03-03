@@ -39,6 +39,7 @@ export default function Hero({ dict, lang }: { dict: any, lang: string }) {
                 <div className={styles.leftCol}>
                     <h1 className={styles.title}>{dict.hero.title}</h1>
                     <p className={styles.subtitle}>{dict.hero.subtitle}</p>
+                    {dict.hero.note && <p className={styles.subtitle}>{dict.hero.note}</p>}
 
                     {/* Buttons removed as requested */}
                 </div>

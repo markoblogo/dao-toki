@@ -9,11 +9,17 @@ import Script from 'next/script';
 
 function getLocalizedBook(dict: any, book: (typeof books)[number], lang: 'en' | 'tp') {
   const localized = dict?.collection?.[book.slug];
+  const learnMoreParagraphs =
+    Array.isArray(localized?.learnMoreParagraphs) && localized.learnMoreParagraphs.length
+      ? localized.learnMoreParagraphs
+      : [localized?.longDesc || book.longDescription[lang] || book.longDescription.en];
+
   return {
     title: localized?.title || book.title[lang] || book.title.en,
     author: localized?.author || book.author[lang] || book.author.en,
     shortDesc: localized?.shortDesc || book.shortDescription[lang] || book.shortDescription.en,
     longDesc: localized?.longDesc || book.longDescription[lang] || book.longDescription.en,
+    learnMoreParagraphs,
   };
 }
 
@@ -149,7 +155,9 @@ export default async function BookPage({ params }: { params: Promise<{ lang: str
 
         <div className={styles.longDesc}>
           <h2 className={styles.sectionTitle}>{dict?.collection?.learn_more ?? 'Learn more'}</h2>
-          <p>{localized.longDesc}</p>
+          {localized.learnMoreParagraphs.map((paragraph: string, index: number) => (
+            <p key={`${book.slug}-${index}`}>{paragraph}</p>
+          ))}
         </div>
       </div>
     </main>
