@@ -34,6 +34,9 @@ export default function Header({ lang }: { lang: 'en' | 'tp' }) {
           <a className={`${styles.navLink} ux-hover-btn ux-focus-ring`} href={`${homeHref}#faq`}>
             {faqLabel}
           </a>
+          <a className={`${styles.navLink} ux-hover-btn ux-focus-ring`} href="https://stoic.abvx.xyz/" target="_blank" rel="noopener noreferrer">
+            Toki Stoic
+          </a>
           <a className={`${styles.navLink} ${styles.navLinkActive} ux-hover-btn ux-focus-ring`} href={homeHref}>
             {seriesLabel}
           </a>
