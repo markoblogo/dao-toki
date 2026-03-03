@@ -129,7 +129,13 @@ export default function BookSection({ book, dict, isLast }: BookSectionProps) {
                             alt={title}
                             className={styles.lightboxImg}
                         />
-                        <button className={`${styles.closeBtn} ux-hover-btn ux-focus-ring`} aria-label="Close">×</button>
+                        <button
+                            className={`${styles.closeBtn} ux-hover-btn ux-focus-ring`}
+                            aria-label="Close"
+                            onClick={() => setIsLightboxOpen(false)}
+                        >
+                            ×
+                        </button>
                     </div>
                 </div>
             )}
