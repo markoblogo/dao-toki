@@ -1,6 +1,6 @@
 import type { Book } from '@/data/books';
 
-export const SITE_URL = 'https://stoic.abvx.xyz';
+export const SITE_URL = 'https://dao-toki.abvx.xyz';
 
 export function orgJsonLd() {
   return {
@@ -16,7 +16,7 @@ export function websiteJsonLd(lang: 'en' | 'tp') {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'Stoic Wisdom Series',
+    name: 'Chinese Wisdom in toki pona',
     url: SITE_URL,
     inLanguage: lang === 'tp' ? 'tok' : 'en',
   };
@@ -26,7 +26,7 @@ export function seriesJsonLd(lang: 'en' | 'tp') {
   return {
     '@context': 'https://schema.org',
     '@type': 'CreativeWorkSeries',
-    name: 'Stoic Wisdom Series',
+    name: 'Chinese Wisdom in toki pona',
     url: `${SITE_URL}/${lang}`,
     inLanguage: lang === 'tp' ? 'tok' : 'en',
     publisher: {
@@ -57,7 +57,7 @@ export function jsonLdForBook(lang: 'en' | 'tp', book: Book) {
   const common: Record<string, any> = {
     '@context': 'https://schema.org',
     '@type': 'Book',
-    '@id': `${SITE_URL}/${lang}#${book.id}`,
+    '@id': `${SITE_URL}/${lang}#${book.slug}`,
     name: book.title[lang],
     author: { '@type': 'Person', name: book.author[lang] },
     inLanguage,

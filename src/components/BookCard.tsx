@@ -22,7 +22,7 @@ export default function BookCard({ book, dict, lang }: BookCardProps) {
     const paperSoonText = lang === 'tp' ? 'kama sona' : 'soon';
 
     return (
-        <div className={`${styles.card} ux-hover-card`} id={book.id}>
+        <div className={`${styles.card} ux-hover-card`} id={book.slug}>
             <div className={styles.coverWrapper}>
                 <Image
                     src={book.promoImage}

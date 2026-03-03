@@ -16,7 +16,7 @@ export default function BookList({ dict }: { dict: any }) {
         <div id="collection">
             {sortedBooks.map((book, index) => (
                 <BookSection
-                    key={book.id}
+                    key={book.slug}
                     book={book}
                     dict={dict}
                     isLast={false}

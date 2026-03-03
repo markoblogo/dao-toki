@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://stoic.abvx.xyz/sitemap.xml
+Sitemap: https://dao-toki.abvx.xyz/sitemap.xml

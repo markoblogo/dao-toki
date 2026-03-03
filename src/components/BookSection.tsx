@@ -19,7 +19,7 @@ export default function BookSection({ book, dict, isLast }: BookSectionProps) {
     const lang = dict.lang || 'en';
 
     // Look up localized content by book ID in the dictionary
-    const localizedBook = dict.collection[book.id];
+    const localizedBook = dict.collection[book.slug];
 
     const title = localizedBook?.title || book.title[lang as keyof typeof book.title] || book.title.en;
     const author = localizedBook?.author || book.author[lang as keyof typeof book.author] || book.author.en;
@@ -29,7 +29,7 @@ export default function BookSection({ book, dict, isLast }: BookSectionProps) {
     const isGift = book.type === 'gift';
 
     return (
-        <section id={book.id} className={`${styles.section} ${isLast ? styles.lastSection : ''}`}>
+        <section id={book.slug} className={`${styles.section} ${isLast ? styles.lastSection : ''}`}>
             <div className={`container ${styles.container}`}>
 
                 {/* Left: Promo Image */}
@@ -112,7 +112,7 @@ export default function BookSection({ book, dict, isLast }: BookSectionProps) {
                                     ▶ {dict.hero.watch_teaser}
                                 </a>
                             )}
-                            <a href={`/${lang}/books/${book.id}`} className={`${styles.detailsLink} ux-hover-btn ux-focus-ring`}>
+                            <a href={`/${lang}/books/${book.slug}`} className={`${styles.detailsLink} ux-hover-btn ux-focus-ring`}>
                                 {dict.collection.learn_more}
                             </a>
                         </div>

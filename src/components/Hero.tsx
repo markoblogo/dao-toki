@@ -14,7 +14,7 @@ export default function Hero({ dict, lang }: { dict: any, lang: string }) {
 
     const handleSelectBook = (book: Book) => {
         // New Behavior: Scroll to section
-        const element = document.getElementById(book.id);
+        const element = document.getElementById(book.slug);
         if (element) {
             // Account for header or just spacing, though header is now transparent/absolute overlay
             // Adding a small scroll-margin-top logic via CSS on sections is best, but here we can force it
@@ -47,7 +47,7 @@ export default function Hero({ dict, lang }: { dict: any, lang: string }) {
                     <HeroCoverGrid
                         books={books}
                         onSelect={handleSelectBook}
-                        selectedBookId={selectedBook?.id || null}
+                        selectedBookId={selectedBook?.slug || null}
                         dict={dict}
                         lang={lang}
                     />

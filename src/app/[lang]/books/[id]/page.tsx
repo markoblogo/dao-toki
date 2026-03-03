@@ -8,7 +8,7 @@ import { jsonLdForBook } from '@/lib/jsonld';
 import Script from 'next/script';
 
 function getLocalizedBook(dict: any, book: (typeof books)[number], lang: 'en' | 'tp') {
-  const localized = dict?.collection?.[book.id];
+  const localized = dict?.collection?.[book.slug];
   return {
     title: localized?.title || book.title[lang] || book.title.en,
     author: localized?.author || book.author[lang] || book.author.en,
@@ -19,35 +19,35 @@ function getLocalizedBook(dict: any, book: (typeof books)[number], lang: 'en' | 
 
 export async function generateStaticParams() {
   const langs = ['en', 'tp'] as const;
-  return langs.flatMap((lang) => books.map((b) => ({ lang, id: b.id })));
+  return langs.flatMap((lang) => books.map((b) => ({ lang, id: b.slug })));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string; id: string }> }) {
   const { lang, id } = await params;
   const safeLang = lang === 'tp' ? 'tp' : 'en';
   const dict = await getDictionary(safeLang);
-  const book = books.find((b) => b.id === id);
+  const book = books.find((b) => b.slug === id);
   if (!book) return {};
 
   const localized = getLocalizedBook(dict, book, safeLang);
-  const title = `${localized.title} — Stoic Wisdom in toki pona`;
+  const title = `${localized.title} — Chinese Wisdom in toki pona`;
   const description = localized.shortDesc;
-  const imageUrl = `https://stoic.abvx.xyz${book.promoImage || book.coverImage}`;
+  const imageUrl = `https://dao-toki.abvx.xyz${book.promoImage || book.coverImage}`;
 
   return {
     title,
     description,
     alternates: {
-      canonical: `https://stoic.abvx.xyz/${safeLang}/books/${book.id}`,
+      canonical: `https://dao-toki.abvx.xyz/${safeLang}/books/${book.slug}`,
       languages: {
-        en: `https://stoic.abvx.xyz/en/books/${book.id}`,
-        ['tok' as any]: `https://stoic.abvx.xyz/tp/books/${book.id}`,
+        en: `https://dao-toki.abvx.xyz/en/books/${book.slug}`,
+        ['tok' as any]: `https://dao-toki.abvx.xyz/tp/books/${book.slug}`,
       } as any,
     },
     openGraph: {
       title,
       description,
-      url: `https://stoic.abvx.xyz/${safeLang}/books/${book.id}`,
+      url: `https://dao-toki.abvx.xyz/${safeLang}/books/${book.slug}`,
       type: 'book',
       images: [
         {
@@ -71,7 +71,7 @@ export default async function BookPage({ params }: { params: Promise<{ lang: str
   const { lang, id } = await params;
   const safeLang = lang === 'tp' ? 'tp' : 'en';
   const dict = await getDictionary(safeLang);
-  const book = books.find((b) => b.id === id);
+  const book = books.find((b) => b.slug === id);
 
   if (!book) return notFound();
 
@@ -80,10 +80,10 @@ export default async function BookPage({ params }: { params: Promise<{ lang: str
 
   return (
     <main className={styles.page}>
-      <Script id={`jsonld-book-${book.id}`} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <Script id={`jsonld-book-${book.slug}`} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <div className="container">
-        <Link href={`/${safeLang}#${book.id}`} className={`${styles.backLink} ux-hover-btn ux-focus-ring`}>
+        <Link href={`/${safeLang}#${book.slug}`} className={`${styles.backLink} ux-hover-btn ux-focus-ring`}>
           ← {dict?.footer?.back_home ?? 'Back to home'}
         </Link>
 

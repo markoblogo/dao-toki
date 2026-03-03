@@ -47,7 +47,7 @@ export default function HeroCoverGrid({ books, onSelect, lang }: HeroCoverGridPr
 
                     return (
                         <div
-                            key={book.id}
+                            key={book.slug}
                             className={`${styles.cardWrapper} ux-focus-ring`}
                             onClick={() => handleBookClick(book)}
                             onMouseEnter={() => setHoveredIndex(index)}

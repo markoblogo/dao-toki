@@ -5,12 +5,12 @@ export default async function Head({ params }: { params: Promise<{ lang: string 
   // Lighthouse is picky about hreflang. We emit explicit tags.
   // toki pona language code: "tok" (BCP-47 primary language subtag)
   const alternates = [
-    { hrefLang: 'en', href: 'https://stoic.abvx.xyz/en' },
+    { hrefLang: 'en', href: 'https://dao-toki.abvx.xyz/en' },
     // toki pona: canonical BCP-47 is "tok".
-    { hrefLang: 'tok', href: 'https://stoic.abvx.xyz/tp' },
+    { hrefLang: 'tok', href: 'https://dao-toki.abvx.xyz/tp' },
     // Some tools (incl. Lighthouse) are picky; keep a duplicate "tp" tag for compatibility.
-    { hrefLang: 'tp', href: 'https://stoic.abvx.xyz/tp' },
-    { hrefLang: 'x-default', href: 'https://stoic.abvx.xyz/en' },
+    { hrefLang: 'tp', href: 'https://dao-toki.abvx.xyz/tp' },
+    { hrefLang: 'x-default', href: 'https://dao-toki.abvx.xyz/en' },
   ];
 
   return (

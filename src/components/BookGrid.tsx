@@ -12,7 +12,7 @@ export default function BookGrid({ dict, lang }: { dict: any, lang: string }) {
             <div className={styles.grid}>
                 {books.map((book) => (
                     <BookCard
-                        key={book.id}
+                        key={book.slug}
                         book={book}
                         dict={dict}
                         lang={lang}

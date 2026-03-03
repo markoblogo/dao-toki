@@ -24,27 +24,27 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
         title: dict.meta.title,
         description: dict.meta.description,
         alternates: {
-            canonical: `https://stoic.abvx.xyz/${safeLang}`,
+            canonical: `https://dao-toki.abvx.xyz/${safeLang}`,
             languages: {
-                en: 'https://stoic.abvx.xyz/en',
+                en: 'https://dao-toki.abvx.xyz/en',
                 // NOTE: Next Metadata typing only allows specific hreflang codes.
                 // We keep route /tp but cast key to avoid TS error; this renders hreflang="tok".
-                ['tok' as any]: 'https://stoic.abvx.xyz/tp',
+                ['tok' as any]: 'https://dao-toki.abvx.xyz/tp',
             } as any,
         },
         openGraph: {
             title: dict.meta.title,
             description: dict.meta.description,
-            url: `https://stoic.abvx.xyz/${safeLang}`,
-            siteName: 'Stoic Wisdom Series',
+            url: `https://dao-toki.abvx.xyz/${safeLang}`,
+            siteName: 'Chinese Wisdom in toki pona',
             locale: safeLang === 'tp' ? 'en_US' : 'en_US',
             type: 'website',
             images: [
                 {
-                    url: 'https://stoic.abvx.xyz/og-image.jpg',
+                    url: 'https://dao-toki.abvx.xyz/og-image.jpg',
                     width: 1200,
                     height: 630,
-                    alt: 'Stoic Wisdom Series — toki pona editions',
+                    alt: 'Chinese Wisdom in toki pona — toki pona editions',
                 },
             ],
         },
@@ -52,7 +52,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
             card: 'summary_large_image',
             title: dict.meta.title,
             description: dict.meta.description,
-            images: ['https://stoic.abvx.xyz/twitter-card.jpg'],
+            images: ['https://dao-toki.abvx.xyz/twitter-card.jpg'],
         },
         robots: {
             index: true,

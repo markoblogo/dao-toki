@@ -1,137 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://stoic.abvx.xyz/en</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://stoic.abvx.xyz/en"/>
-    <xhtml:link rel="alternate" hreflang="tok" href="https://stoic.abvx.xyz/tp"/>
-    <lastmod>2026-02-04</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://dao-toki.abvx.xyz/en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dao-toki.abvx.xyz/en"/>
+    <xhtml:link rel="alternate" hreflang="tok" href="https://dao-toki.abvx.xyz/tp"/>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://stoic.abvx.xyz/tp</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://stoic.abvx.xyz/en"/>
-    <xhtml:link rel="alternate" hreflang="tok" href="https://stoic.abvx.xyz/tp"/>
-    <lastmod>2026-02-04</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://dao-toki.abvx.xyz/tp</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dao-toki.abvx.xyz/en"/>
+    <xhtml:link rel="alternate" hreflang="tok" href="https://dao-toki.abvx.xyz/tp"/>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://stoic.abvx.xyz/en/books/marcus-meditations</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://stoic.abvx.xyz/en/books/marcus-meditations"/>
-    <xhtml:link rel="alternate" hreflang="tok" href="https://stoic.abvx.xyz/tp/books/marcus-meditations"/>
-    <lastmod>2026-02-04</lastmod>
+    <loc>https://dao-toki.abvx.xyz/en/books/dao-de-jing</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dao-toki.abvx.xyz/en/books/dao-de-jing"/>
+    <xhtml:link rel="alternate" hreflang="tok" href="https://dao-toki.abvx.xyz/tp/books/dao-de-jing"/>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://stoic.abvx.xyz/tp/books/marcus-meditations</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://stoic.abvx.xyz/en/books/marcus-meditations"/>
-    <xhtml:link rel="alternate" hreflang="tok" href="https://stoic.abvx.xyz/tp/books/marcus-meditations"/>
-    <lastmod>2026-02-04</lastmod>
+    <loc>https://dao-toki.abvx.xyz/tp/books/dao-de-jing</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dao-toki.abvx.xyz/en/books/dao-de-jing"/>
+    <xhtml:link rel="alternate" hreflang="tok" href="https://dao-toki.abvx.xyz/tp/books/dao-de-jing"/>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://stoic.abvx.xyz/en/books/epictetus-enchiridion</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://stoic.abvx.xyz/en/books/epictetus-enchiridion"/>
-    <xhtml:link rel="alternate" hreflang="tok" href="https://stoic.abvx.xyz/tp/books/epictetus-enchiridion"/>
-    <lastmod>2026-02-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stoic.abvx.xyz/tp/books/epictetus-enchiridion</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://stoic.abvx.xyz/en/books/epictetus-enchiridion"/>
-    <xhtml:link rel="alternate" hreflang="tok" href="https://stoic.abvx.xyz/tp/books/epictetus-enchiridion"/>
-    <lastmod>2026-02-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://stoic.abvx.xyz/en/books/seneca-shortness-of-life</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://stoic.abvx.xyz/en/books/seneca-shortness-of-life"/>
-    <xhtml:link rel="alternate" hreflang="tok" href="https://stoic.abvx.xyz/tp/books/seneca-shortness-of-life"/>
-    <lastmod>2026-02-04</lastmod>
+    <loc>https://dao-toki.abvx.xyz/en/books/sunzi</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dao-toki.abvx.xyz/en/books/sunzi"/>
+    <xhtml:link rel="alternate" hreflang="tok" href="https://dao-toki.abvx.xyz/tp/books/sunzi"/>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://stoic.abvx.xyz/tp/books/seneca-shortness-of-life</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://stoic.abvx.xyz/en/books/seneca-shortness-of-life"/>
-    <xhtml:link rel="alternate" hreflang="tok" href="https://stoic.abvx.xyz/tp/books/seneca-shortness-of-life"/>
-    <lastmod>2026-02-04</lastmod>
+    <loc>https://dao-toki.abvx.xyz/tp/books/sunzi</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dao-toki.abvx.xyz/en/books/sunzi"/>
+    <xhtml:link rel="alternate" hreflang="tok" href="https://dao-toki.abvx.xyz/tp/books/sunzi"/>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://stoic.abvx.xyz/en/books/cicero-on-duties</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://stoic.abvx.xyz/en/books/cicero-on-duties"/>
-    <xhtml:link rel="alternate" hreflang="tok" href="https://stoic.abvx.xyz/tp/books/cicero-on-duties"/>
-    <lastmod>2026-02-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stoic.abvx.xyz/tp/books/cicero-on-duties</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://stoic.abvx.xyz/en/books/cicero-on-duties"/>
-    <xhtml:link rel="alternate" hreflang="tok" href="https://stoic.abvx.xyz/tp/books/cicero-on-duties"/>
-    <lastmod>2026-02-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://stoic.abvx.xyz/en/books/readers-kit</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://stoic.abvx.xyz/en/books/readers-kit"/>
-    <xhtml:link rel="alternate" hreflang="tok" href="https://stoic.abvx.xyz/tp/books/readers-kit"/>
-    <lastmod>2026-02-04</lastmod>
+    <loc>https://dao-toki.abvx.xyz/en/books/mozi-universal-love</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dao-toki.abvx.xyz/en/books/mozi-universal-love"/>
+    <xhtml:link rel="alternate" hreflang="tok" href="https://dao-toki.abvx.xyz/tp/books/mozi-universal-love"/>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://stoic.abvx.xyz/tp/books/readers-kit</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://stoic.abvx.xyz/en/books/readers-kit"/>
-    <xhtml:link rel="alternate" hreflang="tok" href="https://stoic.abvx.xyz/tp/books/readers-kit"/>
-    <lastmod>2026-02-04</lastmod>
+    <loc>https://dao-toki.abvx.xyz/tp/books/mozi-universal-love</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dao-toki.abvx.xyz/en/books/mozi-universal-love"/>
+    <xhtml:link rel="alternate" hreflang="tok" href="https://dao-toki.abvx.xyz/tp/books/mozi-universal-love"/>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://stoic.abvx.xyz/en/legal</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://stoic.abvx.xyz/en/legal"/>
-    <xhtml:link rel="alternate" hreflang="tok" href="https://stoic.abvx.xyz/tp/legal"/>
-    <lastmod>2026-02-04</lastmod>
+    <loc>https://dao-toki.abvx.xyz/en/legal</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dao-toki.abvx.xyz/en/legal"/>
+    <xhtml:link rel="alternate" hreflang="tok" href="https://dao-toki.abvx.xyz/tp/legal"/>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
   <url>
-    <loc>https://stoic.abvx.xyz/tp/legal</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://stoic.abvx.xyz/en/legal"/>
-    <xhtml:link rel="alternate" hreflang="tok" href="https://stoic.abvx.xyz/tp/legal"/>
-    <lastmod>2026-02-04</lastmod>
+    <loc>https://dao-toki.abvx.xyz/tp/legal</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dao-toki.abvx.xyz/en/legal"/>
+    <xhtml:link rel="alternate" hreflang="tok" href="https://dao-toki.abvx.xyz/tp/legal"/>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
 
   <url>
-    <loc>https://stoic.abvx.xyz/en/privacy</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://stoic.abvx.xyz/en/privacy"/>
-    <xhtml:link rel="alternate" hreflang="tok" href="https://stoic.abvx.xyz/tp/privacy"/>
-    <lastmod>2026-02-04</lastmod>
+    <loc>https://dao-toki.abvx.xyz/en/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dao-toki.abvx.xyz/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="tok" href="https://dao-toki.abvx.xyz/tp/privacy"/>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
   <url>
-    <loc>https://stoic.abvx.xyz/tp/privacy</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://stoic.abvx.xyz/en/privacy"/>
-    <xhtml:link rel="alternate" hreflang="tok" href="https://stoic.abvx.xyz/tp/privacy"/>
-    <lastmod>2026-02-04</lastmod>
+    <loc>https://dao-toki.abvx.xyz/tp/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dao-toki.abvx.xyz/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="tok" href="https://dao-toki.abvx.xyz/tp/privacy"/>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
