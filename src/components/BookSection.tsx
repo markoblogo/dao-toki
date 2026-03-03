@@ -123,14 +123,11 @@ export default function BookSection({ book, dict, isLast }: BookSectionProps) {
             {/* Lightbox Overlay */}
             {isLightboxOpen && (
                 <div className={styles.lightbox} onClick={() => setIsLightboxOpen(false)}>
-                    <div className={styles.lightboxContent}>
-                        <Image
+                    <div className={styles.lightboxContent} onClick={(e) => e.stopPropagation()}>
+                        <img
                             src={book.promoImage}
                             alt={title}
-                            width={1200}
-                            height={800}
                             className={styles.lightboxImg}
-                            priority
                         />
                         <button className={`${styles.closeBtn} ux-hover-btn ux-focus-ring`} aria-label="Close">×</button>
                     </div>
