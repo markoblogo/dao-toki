@@ -21,6 +21,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     const dict = await getDictionary(safeLang);
 
     return {
+        metadataBase: new URL('https://dao-toki.abvx.xyz'),
         title: dict.meta.title,
         description: dict.meta.description,
         alternates: {
